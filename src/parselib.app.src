@@ -1,0 +1,10 @@
+{application, parselib, [
+    {description, "Erlang tools for parsing"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
